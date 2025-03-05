@@ -27,30 +27,6 @@ sudo apt update
 sudo apt install k6
 ```
 
-## 🧪 Basic K6 Test Types
-
-### 1. Smoke Test
-- Validates basic functionality
-- Minimal load
-- Quick verification of system response
-```bash
-k6 run basic-tests/smoke-test.js
-```
-
-### 2. Load Test
-- Typical user load
-- Validate system performance
-```bash
-k6 run basic-tests/load-test.js
-```
-
-### 3. Stress Test
-- Beyond normal operational capacity
-- Determine system breaking point
-```bash
-k6 run basic-tests/stress-test.js
-```
-
 ## 🔍 Running Tests
 
 ### Basic Execution
